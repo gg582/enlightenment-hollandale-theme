@@ -1,16 +1,16 @@
 #include "macros.edc"
 efl_version: 1 25;
 
-#define THEME_NAME_UPPER "Arc Green"
-#define THEME_NAME_LOWER "arc-green"
+#define THEME_NAME_UPPER "Discus Dark"
+#define THEME_NAME_LOWER "discus-dark"
 
 externals.external: "elm";
 
 // theme api version. from 1.10 on we will check version to avoid
 // compat issues
 data.item: "version" "125";
-data.item: "icon-theme" "MokshaArcGreen";
-data.item: "gtk-theme" "MokshaArcGreen";
+data.item: "icon-theme" "Tela-circle";
+data.item: "gtk-theme" "Layan-discus-Dark";
 
 collections {
 #include "fonts_arc-dark.edc"

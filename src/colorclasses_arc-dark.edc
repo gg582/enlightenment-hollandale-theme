@@ -3,55 +3,55 @@
 
 #define COL_NORM                  68  74  88 255
 #define COL_HOVER                 80  86 102 255
-#define COL_ENABLE                65  146 54 160
+#define COL_ENABLE                 74 124 140 160
 #define COL_PRESSED              COL_ENABLE
 #define COL_SELECTED             COL_ENABLE
 
-#define COL_LIGHT_NORM            95 101 115 255
-#define COL_LIGHT_HOVER          118 123 135 255
+#define COL_LIGHT_NORM             68  73  88 255
+#define COL_LIGHT_HOVER           84  89 103 255
 #define COL_LIGHT_PRESSED        COL_ENABLE
 
-#define COL_BG                    64  69  82 255
-#define COL_BG_LIGHT              91  98 123 255
-#define COL_BG_DARK               56  60  74 255
-#define COL_BG_DARK_HOVER         60  65  78 255
+#define COL_BG                     42  46  56 255
+#define COL_BG_LIGHT               62  67  82 255
+#define COL_BG_DARK                30  33  42 255
+#define COL_BG_DARK_HOVER          38  42  52 255
 
 //all kinds of popups/notification/ctxpopup bg
-#define COL_BG_DARK_TRANS         56  60 74 235
-#define COL_BG_DARKER             47  53 62 255
-#define COL_BG_DARKER_TRANS       47  53 62 235
-#define COL_BORDER                43  46 57 255
-#define COL_BORDER_DARK           43  46 57 255
+#define COL_BG_DARK_TRANS          30  33  42 235
+#define COL_BG_DARKER              23  25  32 255
+#define COL_BG_DARKER_TRANS        23  25  32 235
+#define COL_BORDER                 17  17  22 255
+#define COL_BORDER_DARK            17  17  22 255
 
-#define COL_FOCUS_INLINE         135 135 135 100
+#define COL_FOCUS_INLINE          74 124 140 100
 
 #define COL_MASK_DISABLED        255 255 255 150
 
 // colors for border buttons minimize/maximize/close
 #define MINIMIZE_ACTIVE          185 188 194 255
 #define MAXMIMIZE_ACTIVE         185 188 194 255
-#define CLOSE_ACTIVE             65  146 54 255
+#define CLOSE_ACTIVE              74 124 140 255
 
 #define MINIMIZE_INACTIVE        102 106 116 255
 #define MAXMIMIZE_INACTIVE       102 106 116 255
 #define CLOSE_INACTIVE           102 106 116 255
 
 #define MINIMIZE_HOVER           196 199 204 255
-#define MINIMIZE_HOVER_BACKGROUND 69  76  92 255
+#define MINIMIZE_HOVER_BACKGROUND  55  60  74 255
 #define MINIMIZE_HOVER_BACKGROUND_BORDER 38 41 50 255
 #define MAXIMIZE_HOVER           196 199 204 255
-#define MAXIMIZE_HOVER_BACKGROUND 69  76  92 255
+#define MAXIMIZE_HOVER_BACKGROUND  55  60  74 255
 #define MAXIMIZE_HOVER_BACKGROUND_BORDER 38 41 50 255
-#define CLOSE_HOVER               40 191 22 255
+#define CLOSE_HOVER                98 155 170 255
 
 #define MINIMIZE_PRESSED         VISIBLE
-#define MINIMIZE_PRESSED_BACKGROUND 65 146 54 255
+#define MINIMIZE_PRESSED_BACKGROUND  74 124 140 255
 #define MAXIMIZE_PRESSED         VISIBLE
-#define MAXIMIZE_PRESSED_BACKGROUND 65 146 54 255
-#define CLOSE_PRESSED            65  220 54 255
+#define MAXIMIZE_PRESSED_BACKGROUND  74 124 140 255
+#define CLOSE_PRESSED             128 180 194 255
 
-#define WIN_BORDER_LINE           22  27  43 255
-#define WIN_BORDER_UNDERLINE      53  59  73 255
+#define WIN_BORDER_LINE            17  17  22 255
+#define WIN_BORDER_UNDERLINE       44  49  61 255
 #define WIN_BORDER_BG            COL_BG_DARKER
 
 #define COL_ICON_BASIC           COL_FONT_BASIC_DEFAULT
@@ -59,9 +59,9 @@
 #define COL_ICON_BASIC_PRESSED   COL_FONT_BASIC_PRESSED
 #define COL_ICON_BASIC_DISABLED  COL_FONT_BASIC_DISABLED
 
-#define COL_SUCCESS              115 210  22 255
-#define COL_ERROR                252  65  56 255
-#define COL_WARNING              242 120  53 255
+#define COL_SUCCESS               0   200 83 255
+#define COL_ERROR                 221 44   0 255
+#define COL_WARNING               255 109  0  255
 
 
 
