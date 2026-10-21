@@ -25,7 +25,7 @@ rect { To; mouse;																		\
 group { "modules/calendar/header"; min: 42 20;
 	parts {
 		rect { "base"; nomouse;
-			desc { "default"; color: "#419236";
+			desc { "default"; color: "#4A7C8C";
 				rel1.offset: -1 -1;
 				rel2.offset: 0 0;
 			}
@@ -246,7 +246,7 @@ group { "modules/calendar/main";
 			}
 		}
 		text { "monthday"; mouse; scale;
-			desc { "default"; color: "#419236"; color_class: "module_label";
+			desc { "default"; color: "#4A7C8C"; color_class: "module_label";
 				rel1.relative: 0.0 0.35;
 				rel1.offset: 0 0;
 				rel1.to: "calendar";
@@ -284,7 +284,7 @@ group { "modules/calendar/main";
 group { "modules/calendar/today";
 	parts {
 		rect { "e.rect.background"; nomouse;
-			desc { color: "#41923680";
+			desc { color: "#4A7C8C80";
 				rel1.to: "e.text.label";
 				rel1.offset: -1 -1;
 				rel2.to: "e.text.label";
@@ -292,7 +292,7 @@ group { "modules/calendar/today";
 			}
 		}
 		rect { "e.rect.light"; nomouse;
-			desc { color: "#419236";
+			desc { color: "#4A7C8C";
 				rel1.to: "e.text.label";
 				rel1.offset: 0 0;
 				rel2.to: "e.text.label";

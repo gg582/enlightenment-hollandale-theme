@@ -10,7 +10,7 @@ all: arc arc-dark arc-light arc-darker
 #~ 	make -C $(SRC_DIR) ../arc.edj
 
 arc-dark:
-	make -C $(SRC_DIR) ../hollandale-dark.edj
+	make -C $(SRC_DIR) ../arc-dark.edj
 
 arc-light:
 	make -C $(SRC_DIR) ../hollandale-light.edj

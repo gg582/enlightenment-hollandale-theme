@@ -35,7 +35,7 @@ group { name: "e/modules/notification/logo";
             rel2.to: "base";
             rel2.offset: 0 3;
             state: "default" 0.0;
-            color: 65 146 54 255;
+            color: 74 124 140 255;
             visible: 1;
             text 
             {

@@ -99,4 +99,4 @@ all: ../arc.edj ../arc-dark.edj ../hollandale-light.edj ../arc-darker.edj
 	$(info Arc darker colors not yet done)
 
 clean:
-	rm -f ../arc-dark.edj ../hollandale-light.edj
+	rm -f ../arc-dark.edj ../hollandale-dark.edj ../hollandale-light.edj

@@ -920,7 +920,7 @@ color_classes {
       desc: "Calendar weekend";
    }
    color_class { name: "mem_module_real";
-      color: 65 146 54 255; 
+      color: 74 124 140 255; 
       desc: "Real graph color";
    }
    color_class { name: "mem_module_swap";

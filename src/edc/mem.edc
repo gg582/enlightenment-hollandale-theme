@@ -358,7 +358,7 @@ group { "modules/mem/main";
 			text.align: 0.5 1;
 			text.text_class: "module_small";
 		}
-		desc { "visible"; inherit; color: 65 146 54 255; vis; }
+		desc { "visible"; inherit; color: 74 124 140 255; vis; }
 	}
 	text { "swap_label"; mouse; scale;
 		desc { "default"; color: NO_COLOR; hid;
@@ -374,7 +374,7 @@ group { "modules/mem/main";
 			text.align: 0.5 0;
 			text.text_class: "module_small";
 		}
-		desc { "visible"; inherit; color: 65 146 54 255; vis; }
+		desc { "visible"; inherit; color: 74 124 140 255; vis; }
 		}
 		rect { "over"; mouse;
 			desc { "default"; color: 0 0 0 0; }

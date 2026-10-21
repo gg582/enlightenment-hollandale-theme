@@ -1207,7 +1207,7 @@ group { name: "e/widgets/border/pixel/border";
          }
          description { state: "focused" 0.0;
             inherit: "default" 0.0;
-            color: 65 146 54 255;
+            color: 74 124 140 255;
          }
       }
       part { name: "bottom"; type: RECT;
@@ -1218,7 +1218,7 @@ group { name: "e/widgets/border/pixel/border";
          }
          description { state: "focused" 0.0;
             inherit: "default" 0.0;
-            color: 65 146 54 255;
+            color: 74 124 140 255;
          }
       }
       part { name: "left"; type: RECT;
@@ -1229,7 +1229,7 @@ group { name: "e/widgets/border/pixel/border";
          }
          description { state: "focused" 0.0;
             inherit: "default" 0.0;
-            color: 65 146 54 255;
+            color: 74 124 140 255;
          }
       }
       part { name: "right"; type: RECT;
@@ -1240,7 +1240,7 @@ group { name: "e/widgets/border/pixel/border";
          }
          description { state: "focused" 0.0;
             inherit: "default" 0.0;
-            color: 65 146 54 255;
+            color: 74 124 140 255;
          }
       }
       part { name: "e.event.resize.tl"; type: RECT;

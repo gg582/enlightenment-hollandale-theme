@@ -41,7 +41,7 @@ group { "modules/net/main";
 			}
 		}
 		text { "e.text.recv"; nomouse;
-			desc { "default"; color: 65 146 54 255; vis;
+			desc { "default"; color: 74 124 140 255; vis;
 				color2: 0 0 0 50;
 				color3: 0 0 0 42;
 				fixed: 1 1;
@@ -61,7 +61,7 @@ group { "modules/net/main";
 			desc { "hidden"; inherit; hid; }
 		}
 		text { "e.text.send"; nomouse;
-			desc { "default"; color: 65 146 54 255; vis; 
+			desc { "default"; color: 74 124 140 255; vis; 
 				color2: 0 0 0 50;
 				color3: 0 0 0 42;
 				fixed: 1 1;
