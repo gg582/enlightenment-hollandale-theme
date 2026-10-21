@@ -94,11 +94,11 @@ group { name: "e/modules/notification/logo";
 group { name: "e/modules/notification/main";
    images.image: "bg-rounded-3px@4.png" COMP;
    images.image: "border-rounded-3px@4.png" COMP;
-   data.item: "app_icon_max" "48 48";
+   data.item: "app_icon_max" "64 64";
    data.item: "shaped" "1";
    styles {
       style { name: "notification_style_nowrap";
-         base: "font="FN" font_size=10 align=left color=#ffff wrap=none text_class=notification_body";
+         base: "font="FN" font_size=14 align=left color=#ffff wrap=none text_class=notification_body";
          tag:  "subject"  "+ text_class=module_large style=glow color=#3399ffff align=center";
          tag:  "body"  "+ text_class=module_normal";
          tag:  "br" "\n";
@@ -110,7 +110,7 @@ group { name: "e/modules/notification/main";
          tag:  "a" ""; // links not supported
       }
       style { name: "notification_style";
-         base: "font="FN" font_size=10 align=left color=#ffff wrap=word text_class=notification_body";
+         base: "font="FN" font_size=14 align=left color=#ffff wrap=word text_class=notification_body";
          tag:  "subject"  "+ text_class=module_large color=#3399ffff glow_color=#3399ff18 align=center";
          tag:  "body"  "+ text_class=module_normal";
          tag:  "br" "\n";
@@ -191,7 +191,7 @@ group { name: "e/modules/notification/main";
          type: RECT;
          desc { state: "default" 0.0;
             rel2.offset: -13 -13;
-            min: 220 115;
+            min: 340 180;
          }
       }
       part { name: "notification.swallow.app_icon";
@@ -240,7 +240,7 @@ group { name: "e/modules/notification/main";
          mouse_events: 0;
          desc { state: "default" 0.0;
             align: 0.0 0.0;
-            max: 500 99999;
+            max: 720 99999;
             rel1.to_x: "notification.swallow.app_icon";
             rel1.to_y: "notification.text.title";
             rel1.relative: 1.0 1.0;
@@ -290,7 +290,7 @@ group { name: "e/modules/notification/main";
             color_class: "popup_title_text";
             text {
                font: FNBD;
-               size: FNSIZE;
+               size: 14;
                min: 0 1;
                align: 0.0 0.5;
                text_class: "notification_title";
