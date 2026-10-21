@@ -358,6 +358,7 @@ group { name: "e/modules/everything/list";
             rel1.offset: 4 4;
             rel2.relative: 0.0 0.0;
             rel2.offset: 4 4;
+            color: COL_FONT_BASIC_DEFAULT;
             text { font: FN; size: 10;
                align: 0.0 0.5;
                min: 1 1;
