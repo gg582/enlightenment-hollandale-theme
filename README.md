@@ -169,3 +169,8 @@ All assets are already exported as .png and included. inkscape and optipng are u
 
 * \[ ] border-icons
 * \[ ] icons
+
+### contributors
+
+* Arc base: Štefan (thewaiter) Uram, LeBlue, leiflm (T_UNIX)
+* Discus recolor, light variant, fixes: gg582
