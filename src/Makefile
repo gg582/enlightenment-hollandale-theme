@@ -1,6 +1,7 @@
 EDJE_CC=edje_cc
 
 ARC_SRC=arc.edc colorclasses_arc.edc fonts_arc.edc
+ARC_LIGHT_SRC=arc-light.edc colorclasses_discus-light.edc fonts_discus-light.edc
 ARC_DARK_SRC=arc-dark.edc colorclasses_arc-dark.edc fonts_arc-dark.edc
 ARC_DARKER_SRC=arc-darker.edc colorclasses_arc-darker.edc fonts_arc-darker.edc
 
@@ -77,7 +78,12 @@ EDJE_CC_SND_FLAGS=
 EDJE_CC_FLAGS=$(EDJE_CC_IMG_FLAGS) $(EDJE_CC_SND_FLAGS)
 
 
-all: ../arc.edj ../arc-dark.edj ../arc-darker.edj
+all: ../arc.edj ../arc-dark.edj ../hollandale-light.edj ../arc-darker.edj
+
+../hollandale-light.edj: $(ARC_LIGHT_SRC) $(ARC_COMMON_SRC)
+	$(info Building discus light theme..)
+	$(EDJE_CC) $(EDJE_CC_FLAGS) arc-light.edc ../hollandale-light.edj
+	chmod 644 ../hollandale-light.edj
 
 ../arc.edj: $(ARC_SRC) $(ARC_COMMON_SRC)
 	$(info Building arc theme..)
@@ -93,4 +99,4 @@ all: ../arc.edj ../arc-dark.edj ../arc-darker.edj
 	$(info Arc darker colors not yet done)
 
 clean:
-	rm ../arc-dark.edj
+	rm -f ../arc-dark.edj ../hollandale-light.edj
